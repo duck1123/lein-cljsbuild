@@ -4,6 +4,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2197"
                   :exclusions [org.apache.ant/ant]]
+                 [org.clojure/tools.reader "0.8.4"]
                  [compojure "1.1.6"]
                  [hiccup "1.0.4"]]
   :plugins [[lein-cljsbuild "1.0.3"]
